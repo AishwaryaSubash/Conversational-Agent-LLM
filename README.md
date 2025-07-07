@@ -16,6 +16,8 @@ This repository includes Jupyter notebooks to:
 | [`SVCEAI Fine tuning - Inference Code.ipynb`](./SVCEAI%20Fine%20tuning%20-%20Inference%20Code.ipynb)               | This notebook handles **fine-tuning** a Hugging Face LLM (like `meta-llama/Llama-2-7b-hf`) using **Ludwig**. It defines a YAML config for model training and shows how to run predictions on custom input after training. |
 | [`SVCEAI Streaming Response - Inference Code.ipynb`](./SVCEAI%20Streaming%20Response%20-%20Inference%20Code.ipynb) | This notebook sets up **token-wise streaming response generation** using the fine-tuned model. It leverages `AutoModelForCausalLM` and `generate()` with `stopping_criteria` to simulate chatbot-like interaction.        |
 
+Application Repository Link: https://github.com/AishwaryaSubash/Conversational-Agent-App
+
 ---
 
 ## 🛠️ Setup Instructions
